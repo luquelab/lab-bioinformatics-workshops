@@ -55,12 +55,12 @@ Use the list below exactly as input (one per line). The label after each ID is f
 
 ## 3) Submit an “all-versus-all” job to DALI
 
-1. Go to the DALI server:
+1. Go to the DALI [server](http://ekhidna2.biocenter.helsinki.fi/dali/):
    `http://ekhidna2.biocenter.helsinki.fi/dali/`
 
 2. Click **“all versus all”**.
 
-3. On that page, click the **alternative submission form** link (“you can use this alternative submission form”), which takes you here:
+3. On that page, click the **alternative submission form** [link](http://ekhidna2.biocenter.helsinki.fi/dali/submitmatrix.html) (“you can use this alternative submission form”), which takes you here:
    `http://ekhidna2.biocenter.helsinki.fi/dali/submitmatrix.html`
 
 4. In **“STEP 1 - Enter your input protein structures”**, paste the block of identifiers.
