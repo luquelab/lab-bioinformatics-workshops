@@ -11,13 +11,13 @@ HK97-fold proteins show up in two big contexts:
 
 A structural dendrogram is a strong way to see which proteins are most similar in 3D and whether “cellular vs viral” groups cluster or mix.
 
-This workflow is inspired by the structural comparisons shown in **Fig. 7** of *Large-scale computational discovery and analysis of virus-derived microbial nanocompartments* (Michael P. Andreas; Tobias W. Giessen). ([Nature][1])
+This workflow is inspired by the structural comparisons shown in **Fig. 7** of *Large-scale computational discovery and analysis of virus-derived microbial nanocompartments* (Michael P. Andreas; Tobias W. Giessen). ([1][1])
 
 ---
 
 ## 1) Gather the structures you will compare
 
-You need a set of representative HK97-fold structures. In this case, the examples come from Fig. 7 of Andreas & Giessen (Nature Communications, 2021). ([Nature][1])
+You need a set of representative HK97-fold structures. In this case, the examples come from Fig. 7 of Andreas & Giessen (Nature Communications, 2021). ([1][1])
 
 We compare **monomers only** (single subunits), not full capsids.
 
@@ -105,7 +105,7 @@ This makes your analysis reproducible even if the server later purges old jobs.
 
 2. **Check where “special” encapsulins land**
 
-   * `A_domain_Encapsulin (2PK8A)` is a truncated HK97-like A-domain; you might expect it to sit apart from full-length capsid proteins, or near proteins where the A-domain dominates the structural signal. (This matches the intuition discussed around Fig. 7 in Andreas & Giessen.) ([Nature][1])
+   * `A_domain_Encapsulin (2PK8A)` is a truncated HK97-like A-domain; you might expect it to sit apart from full-length capsid proteins, or near proteins where the A-domain dominates the structural signal. (This matches the intuition discussed around Fig. 7 in Andreas & Giessen.) ([1][1])
 
 3. **Relate structure clusters to the “T number”**
 
@@ -118,7 +118,7 @@ This makes your analysis reproducible even if the server later purges old jobs.
 
 Once you understand the DALI dendrogram, you can compare the qualitative message to the conclusions and dendrogram of:
 
-* **Multiple origins of viral capsid proteins from cellular ancestors** (Mart Krupovic; Eugene V. Koonin). ([PubMed][2])
+* **Multiple origins of viral capsid proteins from cellular ancestors** (Mart Krupovic; Eugene V. Koonin). ([2][2])
 
 ---
 
